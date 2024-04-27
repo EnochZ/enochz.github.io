@@ -554,7 +554,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   font-size: 70px;
   font-weight: 400;
-  color: #0096FF;
+  color: #FFFFFF;
+  background-color: rgba(0,0,0,0.5);
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -612,8 +613,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(255, 255, 255, 0.9);
   position: absolute;
   z-index: 1001;
-  width: 40%;
-  right: 10%;
+  width: 50%;
+  right: 5%;
   top: 50%;
 }
 @media screen and (max-width: 992px) {
@@ -645,6 +646,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-section-with-image p {
   font-size: 20px;
+  text-align: justify;
+}
+.fh5co-section-with-image span {
+  font-weight: bold;
+  color: green;
 }
 @media screen and (max-width: 768px) {
   .fh5co-section-with-image p {
