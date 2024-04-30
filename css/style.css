@@ -650,7 +650,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-section-with-image span {
   font-weight: bold;
-  color: green;
+  color: black;
 }
 @media screen and (max-width: 768px) {
   .fh5co-section-with-image p {
